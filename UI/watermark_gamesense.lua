@@ -7,7 +7,7 @@ local UserInputService = game:GetService("UserInputService")
 
 -- Properties:
 screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-screenGui.ResetOnSpawn = true
+screenGui.ResetOnSpawn = false
 
 background.Parent = screenGui
 background.AnchorPoint = Vector2.new(1, 0)
